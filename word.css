@@ -1,0 +1,58 @@
+.display {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    cursor: default;
+}
+
+
+
+button {
+    margin-top: 20px;
+    border: none;
+    color: teal;
+    font-size: 20px;
+    font-weight: bolder;
+    background: none;
+}
+
+button:hover {
+    color: rgb(9, 65, 178);
+}
+
+button:active {
+    color: rgba(147, 3, 3, 0.999);
+    scale: 1.1;
+}
+
+p{
+    font-size: 30px;
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: 40px;
+}
+
+.success {
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.disabled {
+    display: none;
+}
+
+.ans {
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0.5px solid teal;
+    text-align: center;
+    color: rgb(170, 128, 1);
+    outline: none;
+}
