@@ -116,7 +116,7 @@ let words = async()=>{
  
 
 
-  let stop = 10;
+  let stop = 30;
 
 let updateTimer = ()=>{
   time.textContent = `00:${stop}`;
